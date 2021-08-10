@@ -1,0 +1,100 @@
+/* ヘッダー部分 */
+
+header{
+    /* red=red, green, blueの混ざった色 */
+    background-color: rgb(6,36,66);
+    padding: 14px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    /* 高さ */
+    height: 36px;
+}
+
+.nav{
+    display: flex;
+}
+
+.nav > li > a{
+    color: white;
+    font-size: 20px;
+    margin-left: 20px;
+    /* 下線を消す */
+    text-decoration: none;
+}
+
+/* メイン部分 */
+.welcome{
+    background-image: url(../img/background.jpg);
+    /* 画像サイズ */
+    background-size: cover;
+    /* 画像のリピートをなくす */
+    background-repeat: no-repeat;
+    /* vh=view height  */
+    height: 100vh;
+
+    color: white;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.title{
+    /* 文字中央揃え */
+    text-align: center;
+    font-size: 80px;
+}
+.guideline{
+    text-align: center;
+    font-size: 40px;
+}
+
+.guideline > li{
+    /* 3つの文字の間隔 */
+    margin: 20px;
+}
+
+#programming > h2,
+#english > h2{
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    color: gray;
+    padding-top: 40px;
+}
+
+
+.contents{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+    font-size: 20px;
+    text-align: left;
+}
+
+.contents_scoreimage{
+    height: 150px;
+    margin: 0px 20px;
+}
+.discription{
+    width: 50%;
+}
+
+footer{
+    background-color: rgb(6,36,66);
+    font-size: 130%;
+    color: white;
+    padding: 20px 0;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
